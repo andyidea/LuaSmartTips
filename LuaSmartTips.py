@@ -197,7 +197,6 @@ class RequireSmartTips(sublime_plugin.EventListener):
 		for proj_subdir in view.window().project_data()["folders"]:
 			proj_subdir = proj_subdir["path"]
 			cur_path = os.path.join(proj_dir, proj_subdir, *(module_path[:-1]))
-			print("curpath:", cur_path)
 			if not os.path.exists(cur_path) or not os.path.isdir(cur_path):
 				continue
 			
