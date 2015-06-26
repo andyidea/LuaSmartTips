@@ -34,6 +34,7 @@ compLua = [
 	("string", "string"),
 	("table", "table"),
 	("io", "io"),
+	("debug", "debug"),
 ]
 
 branchLua = {
