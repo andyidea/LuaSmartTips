@@ -33,6 +33,7 @@ compLua = [
 	("os", "os"),
 	("string", "string"),
 	("table", "table"),
+	("package", "package"),
 	("io", "io"),
 	("debug", "debug"),
 ]
@@ -76,6 +77,15 @@ branchLua = {
 		("type", "type"),
 		("ult", "ult"),
 	],
+	"package" : [
+		("config", "config")
+		("cpath", "cpath")
+		("loaded", "loaded")
+		("loadlib", "loadlib")
+		("path", "path")
+		("preload", "preload")
+		("searchers", "searchers")
+		("searchpath", "searchpath")
 	"os" : [
 		("clock", "clock"),
 		("date", "date"),
